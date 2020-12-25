@@ -1,4 +1,4 @@
-#Soru 2)Soru 2) 1980’den itibaren herhangi bir spor grubunda üst üste 3 veya daha fazla madalya almış atletleri bulalım.
+#Soru 2) 1980’den itibaren herhangi bir spor grubunda üst üste 3 veya daha fazla madalya almış atletleri bulalım.
 
 ```SQL
 Declare year_ INT64 Default 1980;
