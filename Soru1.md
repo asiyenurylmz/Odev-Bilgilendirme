@@ -6,7 +6,7 @@ with count_medals as
 (
   select Sport, Country, Count(1) As Medals_Count 
   from asiyenur_yilmaz.summer_medals
-  Where Year > 1980
+  Where Year >= 1980
   Group By Sport, Country 
   Order By Sport Asc, Medals_Count Desc
 )
